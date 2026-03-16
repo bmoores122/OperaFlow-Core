@@ -1,9 +1,14 @@
 export default function Home() {
   return (
-    <div style={{ padding: 40 }}>
-      <h1>OperaFlow-Core</h1>
-      <p>This is the starter page for your Next.js app.</p>
-    </div>
+    <main className="flex min-h-screen flex-col items-center justify-center p-24">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-6xl">
+          OperaFlow Core
+        </h1>
+        <p className="mt-6 text-lg leading-8 text-muted-foreground">
+          Your Next.js 14 application is ready.
+        </p>
+      </div>
+    </main>
   );
 }
-
